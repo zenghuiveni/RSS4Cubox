@@ -1,16 +1,14 @@
 on:
   rss:
     url: https://rsshub.app/weibo/user/6827625527
-    #  - RSS 订阅链接 1
-    #  - RSS 订阅链接 2
-    #  - RSS 订阅链接 3
+
 jobs:
   request:
     name: Make a HTTP Request
     runs-on: ubuntu-latest
     steps:
       - name: Make a HTTP Request
-        uses: actionsflow/axios@v2
+        uses: actionsflow/axios@v1
         with:
           url: https://cubox.pro/c/api/save/gk6l8wcxrk37c1
           method: POST
@@ -19,6 +17,5 @@ jobs:
               "type":"url",
               "content":"${{ on.rss.outputs.link }}", 
               "title": "${{ on.rss.outputs.title }}",
-              # "description": "${{on.rss.outputs.content}}",
-              "folder": "Tombkeeper"
+              "folder":"Tombkeeper"
             }
