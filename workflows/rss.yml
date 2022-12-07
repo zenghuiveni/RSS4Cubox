@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Make a HTTP Request
-        uses: actionsflow/axios@v1
+        uses: actionsflow/axios@v2
         with:
           url: https://cubox.pro/c/api/save/gk6l8wcxrk37c1
           method: POST
