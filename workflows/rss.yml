@@ -1,6 +1,6 @@
 on:
   rss:
-    url: https://api.izgq.net/weibo/rss/6827625527
+    url: https://rsshub.app/weibo/user/6827625527
     #  - RSS 订阅链接 1
     #  - RSS 订阅链接 2
     #  - RSS 订阅链接 3
