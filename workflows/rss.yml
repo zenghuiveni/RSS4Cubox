@@ -16,7 +16,7 @@ jobs:
             {
               "type":"url",
               "content":"${{ on.rss.outputs.link }}", 
-              "title": "${{ on.rss.outputs.title }}",
+              "title":"${{ on.rss.outputs.title }}",
               "description":"${{on.rss.outputs.content}}",
               "folder":"Tombkeeper"
             }
