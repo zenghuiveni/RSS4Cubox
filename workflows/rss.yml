@@ -1,6 +1,6 @@
 on:
   rss:
-    url: https://rsshub.app/weibo/user/6827625527
+    url: https://api.izgq.net/weibo/rss/6827625527
 
 jobs:
   request:
